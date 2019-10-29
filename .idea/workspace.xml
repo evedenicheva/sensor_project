@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="421e9b02-e0ea-4d5b-8cbe-c036548823b5" name="Default Changelist" comment="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 0bee4bb13724667860c79609671864514634b50c.&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/../../../module/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module/.idea/module.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/L11_25.07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/pojo/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/pojo/EmployeeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/pojo/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/java/by/pvt/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/java/by/pvt/pojo/DepartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/java/by/pvt/pojo/EmployeeDetailsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/java/by/pvt/pojo/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/java/by/pvt/pojo/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/java/by/pvt/pojo/ProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/java/by/pvt/repository/EmployeeRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/resources/by/pvt/repository/Employees.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L11_25.07/src/test/resources/hibernate.cfg.test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L4_27.06/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L4_27.06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L5_01.07/L5_01.07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L7_11.07/.idea/L7_11.07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L7_11.07/hellotomcat/hellotomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L9_18.07/.idea/L7_11.07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L9_18.07/hellotomcat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L9_18.07/hellotomcat/hellotomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/cmd/SendMessageCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/component/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/component/EmailSenderHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/component/EmailSenderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/pojo/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/main/java/by/pvt/service/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/test/java/by/pvt/service/MessageServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/src/test/java/by/pvt/service/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/cmd/SendMessageCmd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/component/EmailSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/component/EmailSenderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/pojo/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/service/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/classes/by/pvt/service/MessageType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/hellospring-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codewars/codewars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/hellosecurity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellosecurity/src/main/java/by/pvt/MyAuthenticationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellospringboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellospringboot/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellospringboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellospringboot/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellospringboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hellospringboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.cheatsheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.factorypath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_4_3_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_hibernate_hibernate_validator_annotation_processor_5_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_core_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_2_Final_wildfly_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0_alpha_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0_alpha_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_impl_base_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/libraries/Maven__org_jboss_spec_javax_faces_jboss_jsf_api_2_2_spec_2_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/hello-wildfly.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/data/MemberListProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/data/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/rest/JaxRsActivator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/rest/MemberResourceRESTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/service/MemberRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/java/by/pvt/util/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/WEB-INF/hello-wildfly-ds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/WEB-INF/templates/default.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/resources/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/resources/gfx/asidebkg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/resources/gfx/bkg-blkheader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/resources/gfx/dualbrand_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/resources/gfx/headerbkg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/main/webapp/resources/gfx/wildfly_400x130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/test/java/by/pvt/test/MemberRegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/test/resources/META-INF/test-persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/test/resources/arquillian.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/src/test/resources/test-ds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/data/MemberListProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/data/MemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/model/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/model/Member_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/rest/JaxRsActivator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/rest/MemberResourceRESTService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/service/MemberRegistration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/by/pvt/util/Resources.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/classes/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/generated-sources/annotations/by/pvt/model/Member_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/data/MemberListProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/data/MemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/model/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/model/Member_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/rest/JaxRsActivator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/rest/MemberResourceRESTService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/service/MemberRegistration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/by/pvt/util/Resources.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/classes/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/hello-wildfly-ds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/WEB-INF/templates/default.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/resources/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/resources/gfx/asidebkg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/resources/gfx/bkg-blkheader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/resources/gfx/dualbrand_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/resources/gfx/headerbkg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/hello-wildfly/resources/gfx/wildfly_400x130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/test-classes/META-INF/test-persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/test-classes/arquillian.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/test-classes/by/pvt/test/MemberRegistrationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/hello-wildfly/target/test-classes/test-ds.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/myspringboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/MyBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/controller/OrderCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/pojo/DeliveryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/pojo/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/service/OrderPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool-sensor-mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/PoolSensorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/PoolSensorInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/AdminOrUserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/AdminPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/MainPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/add/AddDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/add/AddUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/delete/DeleteDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/delete/DeleteSensorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/MyRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/validator/SensorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/MyRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/MyUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/SensorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/security/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/security/SecurityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/MyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/SensorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addDevice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminOrUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/services/javax.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/PoolSensorConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/PoolSensorInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/AdminOrUserViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/AdminPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/MainPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/WelcomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/add/AddDeviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/add/AddUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/delete/DeleteDeviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/delete/DeleteSensorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/pojo/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/pojo/MyRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/pojo/MyUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/pojo/RoleType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/pojo/Sensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/pojo/validator/SensorValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/repository/DeviceRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/repository/MyRoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/repository/MyUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/repository/SensorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/security/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/security/SecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/security/SecurityInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/service/DeviceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/service/MyUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ekaterina/service/SensorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/META-INF/services/javax.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/PoolSensorConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/PoolSensorInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/AdminOrUserViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/AdminPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/MainPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/WelcomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/add/AddDeviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/add/AddUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/delete/DeleteDeviceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/delete/DeleteSensorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/pojo/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/pojo/MyRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/pojo/MyUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/pojo/RoleType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/pojo/Sensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/pojo/validator/SensorValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/repository/DeviceRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/repository/MyRoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/repository/MyUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/repository/SensorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/security/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/security/SecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/security/SecurityInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/service/DeviceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/service/MyUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/service/SensorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/addDevice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/adminOrUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/adminPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp2-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.4.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/pool-sensor-springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/PoolSensorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/cmd/DeviceInfoCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/cmd/SensorInfoCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/cmd/UserInfoCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/controller/DeviceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/controller/SensorInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/dto/DeviceInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/dto/SensorInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/pojo/DeviceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/pojo/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/pojo/SensorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/repository/DeviceInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/repository/SensorInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/service/DeviceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/java/ekaterina/service/SensorInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/pool_sensor_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pool_sensor_project/apps/pool_sensor_root/pool_sensor_root.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/HelloWebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/HelloWebMvcInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/controllers/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/controllers/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/controllers/product/add/AddProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/controllers/product/add/ProductCatalogItemValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/controllers/product/catalog/ProductCatalogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/controllers/user/UserRegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/pojo/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/pojo/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/pojo/ProductCatalogItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/pojo/RoleName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/repository/AppRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/repository/AppUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/repository/ProductCatalogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/security/SecurityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/service/AppUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/java/by/pvt/service/ProductCatalogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/addProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/addProductError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/addProductOk.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/productCatalog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/productCatalogItem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/test/java/by/pvt/TestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/test/java/by/pvt/service/ProductCatalogServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/test/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc/src/test/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../testsEE/codewars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../testsEE/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../testsEE/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01/Args.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01/Hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_02/TaskA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_02/TaskB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_02/TaskC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_02/Test_jd01_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_02/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_02/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/Helper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/InOut.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/Runner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/Test_jd01_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/JD2019-03-11" beforeDir="false" afterPath="$PROJECT_DIR$/../../by/it/eslaikouskaya/JD2019-03-11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/console.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/src/main/java/by/it/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/target/classes/by/it/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/console/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/src/main/java/by/it/academy/maven/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/src/main/java/by/it/academy/maven/impl/MathService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/src/main/resources/META-INF/services/by.it.academy.maven.Service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/src/test/java/by/it/academy/maven/impl/MathServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/classes/META-INF/services/by.it.academy.maven.Service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/classes/by/it/academy/maven/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/classes/by/it/academy/maven/impl/MathService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/surefire-reports/TEST-by.it.academy.maven.impl.MathServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/surefire-reports/by.it.academy.maven.impl.MathServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/service/target/test-classes/by/it/academy/maven/impl/MathServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/util/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/util/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/util/target/util-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/util/util.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ry3cSLON9MxlNP2NyciA6Uoi32" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ekaterina/controllers" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/java/ekaterina/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/ekaterina/repository" />
+      <recent name="$PROJECT_DIR$/src/main/java/ekaterina/pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ekaterina.service" />
+      <recent name="ekaterina.repository" />
+      <recent name="ekaterina.controllers.security" />
+      <recent name="ekaterina.controllers" />
+      <recent name="ekaterina.utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ekaterina" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="421e9b02-e0ea-4d5b-8cbe-c036548823b5" name="Default Changelist" comment="" />
+      <created>1570625587150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570625587150</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
