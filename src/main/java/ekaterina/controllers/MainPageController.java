@@ -2,8 +2,10 @@ package ekaterina.controllers;
 
 import ekaterina.pojo.Device;
 import ekaterina.pojo.Sensor;
+import ekaterina.pojo.SensorInfo;
 import ekaterina.service.DeviceService;
 import ekaterina.service.MyUserService;
+import ekaterina.service.SensorInfoService;
 import ekaterina.service.SensorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -13,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -31,6 +34,9 @@ public class MainPageController {
 	@Autowired
 	SensorService sensorService;
 
+	@Autowired
+	SensorInfoService sensorInfoService;
+
 	@RequestMapping(method = RequestMethod.GET)
 	public String mainPageView (Model model){
 		setAllUserDevices(model);
@@ -45,19 +51,24 @@ public class MainPageController {
 		return "mainPage";
 	}
 
-	@PostMapping("/{id}")
-	public String SubmitAddSensorForm(@PathVariable Long id, @ModelAttribute Sensor sensor,
+	@PostMapping("/{currentDeviceId}")
+	public String SubmitAddSensorForm(@PathVariable Long currentDeviceId, @ModelAttribute Sensor sensor,
 	                                  Model model, BindingResult result){
 		setAllUserDevices(model);
-		Device device = setCurrentDevice(id, model);
-		if (device!=null) setAllSensors(device, model);
-		if (sensorService.addSensor(sensor, device) && !result.hasErrors()) {
-			return "mainPage";
-		}
-		else {
+		Device device = setCurrentDevice(currentDeviceId, model);
+			if (device!=null && sensorService.addSensor(sensor, device) && !result.hasErrors()) {
+					SensorInfo sensorInfo = new SensorInfo();
+					sensorInfo.setDate(new Date());
+					sensorInfo.setDevice_id(currentDeviceId);
+					sensorInfo.setName(sensor.getName());
+					sensorInfo.setValue(sensor.getValue());
+					log.info("Before adding sensorInfo=" + sensorInfo);
+					sensorInfoService.addSensorInfo(sensorInfo);
+					setAllSensors(device, model);
+					return "mainPage";
+			}
 			model.addAttribute("unsuccessful", "Information is not correct. Please try again.");
 			return "mainPage";
-		}
 	}
 
 	@PostMapping

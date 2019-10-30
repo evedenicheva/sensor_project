@@ -9,6 +9,7 @@
       <td><input type="hidden" name= "deviceId" value="${currentDevice.id}"></td>
       <td>${sensor.name}</td>
       <td>${sensor.value}</td>
+      <td><a href="${pageContext.request.contextPath}/graphic/${currentDevice.id}/${sensor.name}" class="link">graphic</a></td>
       <td><button id="delete" name="delete" class="btn btn-dark">Delete</button></td>
     </tr>
    </form>

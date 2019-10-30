@@ -1,10 +1,12 @@
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/AdminOrUserViewController.java
+/Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/pojo/SensorInfo.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/pojo/MyRole.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/LoginController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/SearchController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/security/AuthenticationService.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/MainPageController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/repository/MyUserRepository.java
+/Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/GraphicController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/security/SecurityInitializer.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/service/MyUserService.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/PoolSensorConfiguration.java
@@ -22,7 +24,9 @@
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/security/SecurityConfiguration.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/delete/DeleteDeviceController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/repository/SensorRepository.java
+/Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/repository/SensorInfoRepository.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/pojo/Device.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/repository/DeviceRepository.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/AdminPageController.java
+/Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/service/SensorInfoService.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/WelcomeController.java
