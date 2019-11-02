@@ -5,6 +5,7 @@
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/SearchController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/security/AuthenticationService.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/MainPageController.java
+/Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/ChooseDeviceController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/repository/MyUserRepository.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/controllers/GraphicController.java
 /Users/ekaterina/Documents/projects/src/JavaEE/pool-sensor-mvc/src/main/java/ekaterina/security/SecurityInitializer.java

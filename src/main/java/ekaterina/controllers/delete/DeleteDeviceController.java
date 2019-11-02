@@ -2,8 +2,10 @@ package ekaterina.controllers.delete;
 
 import ekaterina.pojo.Device;
 import ekaterina.pojo.Sensor;
+import ekaterina.pojo.SensorInfo;
 import ekaterina.service.DeviceService;
 import ekaterina.service.MyUserService;
+import ekaterina.service.SensorInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
@@ -25,6 +27,9 @@ public class DeleteDeviceController {
 	@Autowired
 	MyUserService userService;
 
+	@Autowired
+	SensorInfoService sensorInfoService;
+
 	@GetMapping
 	public String rejectDeleteDevice (Model model){
 		setAllUserDevices(model);
@@ -35,6 +40,9 @@ public class DeleteDeviceController {
 	@GetMapping("/{id}")
 	public String showView(Model model, @PathVariable Long id) {
 		setAllStaticInfo(model, id);
+		List<SensorInfo> LatestSensorInfos = sensorInfoService
+				.findLatestForEverySensorInCurrentDevice(id);
+		model.addAttribute("sensorInfos", LatestSensorInfos);
 		if (!deviceService.deleteById(id)) model.addAttribute("unsuccessful", "Can not delete device. First delete all sensors");
 		return "mainPage";
 	}

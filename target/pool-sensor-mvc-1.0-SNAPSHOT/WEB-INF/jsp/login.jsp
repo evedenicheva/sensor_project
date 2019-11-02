@@ -17,13 +17,13 @@
   <div class="form-group row">
     <label for="text" class="col-sm-2 col-form-label">Login</label>
     <div class="col-sm-4">
-      <input type="text" name= "username" value="test" class="form-control" id="login">
+      <input type="text" name= "username" class="form-control" id="login">
     </div>
   </div>
   <div class="form-group row">
     <label for="pwd" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-4">
-      <input type="password" name="password" value="test" class="form-control" id="pwd">
+      <input type="password" name="password" class="form-control" id="pwd">
     </div>
     <jsp:text/></input>
     <button type="submit" class="btn btn-dark">Login</button>

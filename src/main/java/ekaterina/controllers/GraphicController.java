@@ -39,13 +39,20 @@ public class GraphicController {
 	                                @PathVariable Long currentDeviceId) {
 		List<SensorInfo> sensorInfos = sensorInfoService.
 				findFewByDeviceId(15, sensorName, currentDeviceId);
-		if (sensorInfos.size()<2) { //because repo will have one after creating a new
+		if (sensorInfos.size()<2) {
+			//because repo will have one after creating a new
+			List<SensorInfo> LatestSensorInfos = sensorInfoService
+					.findLatestForEverySensorInCurrentDevice(currentDeviceId);
+			model.addAttribute("sensorInfos", LatestSensorInfos);
 			model.addAttribute("unsuccessful", "no info for this sensor");
 			setAllStaticInfo(model, currentDeviceId);
 			return "mainPage";
 		}
 		List<String> sensorInfosTime = new ArrayList<>();
 		for (SensorInfo sensorInfo : sensorInfos) {
+			if (Integer.toString(sensorInfo.getDate().getMinutes()).length()<2){
+				sensorInfosTime.add(sensorInfo.getDate().getHours()+":0"+sensorInfo.getDate().getMinutes());
+			}else
 			sensorInfosTime.add(sensorInfo.getDate().getHours()+":"+sensorInfo.getDate().getMinutes());
 		}
 		model.addAttribute("sensorInfosTime", sensorInfosTime);

@@ -18,10 +18,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.awt.desktop.UserSessionEvent;
 import java.util.List;
+import java.util.logging.Logger;
 
 @Controller
 @RequestMapping("/")
 public class AdminOrUserViewController {
+
+	private static Logger log = Logger.getLogger("AdminOrUserViewController");
 
 	@Autowired
 	MyUserService userService;
@@ -40,12 +43,19 @@ public class AdminOrUserViewController {
 			fillAdminPageInfo(model);
 			return "adminPage";
 		}
-		else if(authentication.getAuthorities().stream()
-				.anyMatch(r -> r.getAuthority().equals("ROLE_USER"))) {
-			setAllUserDevices(model);
-			return "mainPage";
+		if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() instanceof User) {
+			User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+			List<Device> devices = userService.findByLogin(user.getUsername()).getDevices();
+			log.info("User devices:" + devices);
+			if (authentication.getAuthorities().stream()
+					.anyMatch(r -> r.getAuthority().equals("ROLE_USER")) && devices.size() > 0
+			){
+				model.addAttribute("devices", devices);
+				return "chooseDevice";
+			} else
+				return "addDevice";
 		}
-		else return "login";
+		return "login";
 	}
 
 	private void setAllStaticInfo(Model model, Long currentDeviceId){

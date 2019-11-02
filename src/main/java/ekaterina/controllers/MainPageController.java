@@ -43,10 +43,13 @@ public class MainPageController {
 		return "mainPage";
 	}
 
-	@GetMapping("/{id}")
-	public String showCurrentDevice(@PathVariable Long id, Model model) {
+	@GetMapping("/{deviceId}")
+	public String showCurrentDevice(@PathVariable Long deviceId, Model model) {
 		setAllUserDevices(model);
-		Device device = setCurrentDevice(id, model);
+		Device device = setCurrentDevice(deviceId, model);
+		List<SensorInfo> sensorInfos = sensorInfoService
+				.findLatestForEverySensorInCurrentDevice(deviceId);
+		model.addAttribute("sensorInfos", sensorInfos);
 		setAllSensors(device, model);
 		return "mainPage";
 	}
@@ -65,8 +68,15 @@ public class MainPageController {
 					log.info("Before adding sensorInfo=" + sensorInfo);
 					sensorInfoService.addSensorInfo(sensorInfo);
 					setAllSensors(device, model);
+					List<SensorInfo> sensorInfos = sensorInfoService
+						.findLatestForEverySensorInCurrentDevice(currentDeviceId);
+					model.addAttribute("sensorInfos", sensorInfos);
 					return "mainPage";
 			}
+		setAllSensors(device, model);
+		List<SensorInfo> sensorInfos = sensorInfoService
+				.findLatestForEverySensorInCurrentDevice(currentDeviceId);
+		model.addAttribute("sensorInfos", sensorInfos);
 			model.addAttribute("unsuccessful", "Information is not correct. Please try again.");
 			return "mainPage";
 	}
@@ -95,7 +105,7 @@ public class MainPageController {
 
 	private void setAllSensors(Device device, Model model){
 		if (device!=null){
-		List<Sensor> sensors = device.getSensors();
+		List<Sensor> sensors = sensorService.findByDeviceId(device.getId());
 		model.addAttribute("sensors", sensors);
 		log.info("Added sensors to model: "+sensors);
 		}

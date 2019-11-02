@@ -2,8 +2,10 @@ package ekaterina.controllers.delete;
 
 import ekaterina.pojo.Device;
 import ekaterina.pojo.Sensor;
+import ekaterina.pojo.SensorInfo;
 import ekaterina.service.DeviceService;
 import ekaterina.service.MyUserService;
+import ekaterina.service.SensorInfoService;
 import ekaterina.service.SensorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -24,6 +26,9 @@ public class DeleteSensorController {
 	@Autowired
 	MyUserService userService;
 
+	@Autowired
+	SensorInfoService sensorInfoService;
+
 	@GetMapping("/{sensorId}")
 	public String deleteSensorView(Model model){
 		setAllUserDevices(model);
@@ -35,8 +40,12 @@ public class DeleteSensorController {
 
 	@PostMapping("/{sensorId}")
 	public String deleteSensorButton(@PathVariable Long sensorId, @RequestParam Long deviceId, Model model){
+		sensorInfoService.deleteByName(sensorService.findById(sensorId).getName());
 		sensorService.deleteById(sensorId);
 		setAllStaticInfo(model, deviceId);
+		List<SensorInfo> sensorInfos = sensorInfoService
+				.findLatestForEverySensorInCurrentDevice(deviceId);
+		model.addAttribute("sensorInfos", sensorInfos);
 		return "mainPage";
 	}
 

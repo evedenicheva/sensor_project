@@ -21,14 +21,6 @@ public class DeviceService {
 	@Autowired
 	DeviceRepository deviceRepository;
 
-	@Autowired
-	SensorRepository sensorRepository;
-
-	@Transactional
-	public List<Device> getFirstTen(){
-		return deviceRepository.findAll(10);
-	}
-
 	@Transactional
 	public Device findById(Long id){
 		return deviceRepository.findById(id);
@@ -41,7 +33,7 @@ public class DeviceService {
 		adminRole.setRoleType(RoleType.ADMIN);
 		Device deviceWithSameName = deviceRepository.findByName(device.getName());
 		log.info("DeviceFromRepo:"+deviceWithSameName);
-		if (deviceWithSameName!=null || device.getName().isEmpty() ||
+		if ( device.getName().isEmpty() ||
 				device.getIpAddress().isEmpty()|| device.getLocation().isEmpty() ||
 				myUser.getMyRoles().contains(adminRole)) return false;
 		device.setMyUser(myUser);

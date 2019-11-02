@@ -26,4 +26,13 @@ public class SensorInfoService {
 		sensorInfoRepository.add(sensorInfo);
 	}
 
+	@Transactional
+	public List<SensorInfo> findLatestForEverySensorInCurrentDevice(Long deviceId) {
+		return sensorInfoRepository.findLatestForEverySensorInCurrentDevice(deviceId);
+	}
+
+	@Transactional
+	public void deleteByName(String name) {
+		sensorInfoRepository.deleteByName(name);
+	}
 }

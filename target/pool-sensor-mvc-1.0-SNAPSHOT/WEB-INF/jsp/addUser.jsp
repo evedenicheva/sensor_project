@@ -16,25 +16,25 @@
   <div class="form-group row">
     <label for="email" class="col-sm-2 col-form-label">Email</label>
     <div class="col-sm-4">
-      <input type="email" name= "email" value="test@mail.com" class="form-control" id="email">
+      <input type="email" name= "email" value="Katya@mail.ru" class="form-control" id="email">
     </div>
   </div>
   <div class="form-group row">
     <label for="login" class="col-sm-2 col-form-label">Login</label>
     <div class="col-sm-4">
-      <input type="text" name= "login" value="test_login" class="form-control" id="login">
+      <input type="text" name= "login" value="Katya" class="form-control" id="login">
     </div>
   </div>
   <div class="form-group row">
     <label for="pwd" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-4">
-      <input type="password" name="password" value="test_password" class="form-control" id="pwd">
+      <input type="password" name="password" value="katya" class="form-control" id="pwd">
     </div>
   </div>
   <div class="form-group row">
       <label for="pwd_conf" class="col-sm-2 col-form-label">Confirm password</label>
       <div class="col-sm-4">
-        <input type="password" name="password_conf" value="test_password" class="form-control" id="pwd_conf">
+        <input type="password" name="password_conf" value="katya" class="form-control" id="pwd_conf">
       </div>
     </div>
 
@@ -44,19 +44,19 @@
   <div class="form-group row">
     <label for="device_name" class="col-sm-2 col-form-label">Name</label>
     <div class="col-sm-4">
-      <input type="text" name= "name" value="test_device_name" class="form-control" id="name">
+      <input type="text" name= "name" value="pool_device" class="form-control" id="name">
     </div>
   </div>
   <div class="form-group row">
     <label for="device_ip" class="col-sm-2 col-form-label">IP-address</label>
     <div class="col-sm-4">
-      <input type="text" name= "ipAddress" value="test_device_ip" class="form-control" id="ipAddress">
+      <input type="text" name= "ipAddress" value="wSe15uio92k-kdk110" class="form-control" id="ipAddress">
     </div>
   </div>
   <div class="form-group row">
     <label for="device_location" class="col-sm-2 col-form-label">Location</label>
     <div class="col-sm-4">
-      <input type="text" name= "location" value="test_device_location" class="form-control" id="location">
+      <input type="text" name= "location" value="Nezavisimosti 55" class="form-control" id="location">
     <div>
    </div>
 

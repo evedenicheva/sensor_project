@@ -20,6 +20,7 @@ ekaterina/repository/SensorRepository.class
 ekaterina/security/AuthenticationService.class
 ekaterina/repository/SensorInfoRepository.class
 ekaterina/pojo/validator/SensorValidator.class
+ekaterina/controllers/ChooseDeviceController.class
 ekaterina/pojo/MyUser.class
 ekaterina/controllers/delete/DeleteSensorController.class
 ekaterina/controllers/delete/DeleteDeviceController.class
