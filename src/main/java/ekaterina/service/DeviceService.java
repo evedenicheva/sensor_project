@@ -5,7 +5,6 @@ import ekaterina.pojo.MyRole;
 import ekaterina.pojo.MyUser;
 import ekaterina.pojo.RoleType;
 import ekaterina.repository.DeviceRepository;
-import ekaterina.repository.SensorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

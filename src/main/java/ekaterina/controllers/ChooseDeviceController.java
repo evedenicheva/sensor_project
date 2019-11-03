@@ -20,26 +20,11 @@ public class ChooseDeviceController {
 
 	private static Logger log = Logger.getLogger("ChooseDeviceController");
 
-//	@Autowired
-//	MyUserService userService;
-//
-//	@Autowired
-//	DeviceService deviceService;
-
 	@GetMapping
 	public String showAdminPageView(Model model) {
-//		setAllUserDevices(model);
 		return "chooseDevice";
 	}
 
-//	private void setAllUserDevices(Model model){
-//		if (SecurityContextHolder.getContext().getAuthentication().getPrincipal() instanceof User){
-//			User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-//			List<Device> devices = deviceService.findByUserId(userService.findByLogin(user.getUsername()).getId());
-//			log.info("User devices:"+devices);
-//			if (devices.size()>1) model.addAttribute("devices", devices);
-//		}
-//	}
 
 
 }

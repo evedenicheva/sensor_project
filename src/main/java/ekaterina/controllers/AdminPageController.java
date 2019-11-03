@@ -1,7 +1,6 @@
 package ekaterina.controllers;
 
 import ekaterina.pojo.*;
-import ekaterina.repository.MyRoleRepository;
 import ekaterina.service.DeviceService;
 import ekaterina.service.MyUserService;
 import ekaterina.service.SensorService;
@@ -9,12 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.*;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Controller
 @RequestMapping("/adminPage")

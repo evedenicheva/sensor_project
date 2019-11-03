@@ -1,0 +1,213 @@
+{
+  "className": "ekaterina.controllers.SearchControllerTest",
+  "name": "Search Controller",
+  "scenarios": [
+    {
+      "className": "ekaterina.controllers.SearchControllerTest",
+      "testMethodName": "searchWithParam",
+      "description": "Search with param",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "web application",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "web application"
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 7520665
+            },
+            {
+              "name": "user enter correct search string",
+              "words": [
+                {
+                  "value": "user enter correct search string"
+                },
+                {
+                  "value": "test",
+                  "argumentInfo": {
+                    "argumentName": "searchStr",
+                    "formattedValue": "test"
+                  }
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "currentDeviceId",
+                    "formattedValue": "1"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 17533920
+            },
+            {
+              "name": "execute search",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute search"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 318725781
+            },
+            {
+              "name": "result size is positive",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "result size is positive"
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "size",
+                    "formattedValue": "1"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 976164
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 481330758
+        }
+      ],
+      "durationInNanos": 481330758,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "ekaterina.controllers.SearchControllerTest",
+      "testMethodName": "search",
+      "description": "Search",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "web application",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "web application"
+                },
+                {
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019",
+                  "argumentInfo": {
+                    "argumentName": "wac",
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 636965
+            },
+            {
+              "name": "user enter empty search string",
+              "words": [
+                {
+                  "value": "user enter empty search string"
+                },
+                {
+                  "value": "",
+                  "argumentInfo": {
+                    "argumentName": "searchStr",
+                    "formattedValue": ""
+                  }
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "currentDeviceId",
+                    "formattedValue": "1"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2431375
+            },
+            {
+              "name": "execute search",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "execute search"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 32382409
+            },
+            {
+              "name": "result size is null",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "result size is null"
+                },
+                {
+                  "value": "null",
+                  "argumentInfo": {
+                    "argumentName": "size",
+                    "formattedValue": "null"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 443613
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 52015006
+        }
+      ],
+      "durationInNanos": 52015006,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="421e9b02-e0ea-4d5b-8cbe-c036548823b5" name="Default Changelist" comment="Added graphics and SensorInfo with service and repo">
+    <list default="true" id="421e9b02-e0ea-4d5b-8cbe-c036548823b5" name="Default Changelist" comment="Test for SearchController">
       <change afterPath="$PROJECT_DIR$/../../../module/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../module/.idea/dbnavigator.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../module/.idea/encodings.xml" afterDir="false" />
@@ -240,6 +240,68 @@
       <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/repository/OrderRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/by/pvt/service/OrderPaymentService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jgiven-reports/ekaterina.controllers.SearchControllerTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool-sensor-mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/PoolSensorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/PoolSensorInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/AdminOrUserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/AdminPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/MainPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/add/AddDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/add/AddUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/delete/DeleteDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/delete/DeleteSensorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/MyRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/SensorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/pojo/validator/SensorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/MyRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/MyUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/SensorInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/repository/SensorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/security/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/security/SecurityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/MyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/SensorInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ekaterina/service/SensorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addDevice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminOrUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ekaterina/TestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ekaterina/controllers/SearchControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data-delete.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pool-sensor-springboot/.idea/codeStyles" afterDir="false" />
@@ -349,12 +411,13 @@
       <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/package-summary.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../by/it/eslaikouskaya/jd01_03/package-tree.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/ChooseDeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/ChooseDeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ekaterina/controllers/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ekaterina/controllers/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ekaterina/controllers/SearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/pool-sensor-mvc-1.0-SNAPSHOT/WEB-INF/classes/ekaterina/controllers/SearchController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/JD2019-03-11" beforeDir="false" afterPath="$PROJECT_DIR$/../../by/it/eslaikouskaya/JD2019-03-11" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../by/it/eslaikouskaya/parent/.idea/compiler.xml" beforeDir="false" />
@@ -408,8 +471,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -454,6 +517,13 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ekaterina.pojo" />
+      <recent name="ekaterina.service" />
+      <recent name="ekaterina.repository" />
+      <recent name="ekaterina.controllers.security" />
+      <recent name="ekaterina.controllers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
@@ -461,12 +531,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/ekaterina/service" />
       <recent name="$PROJECT_DIR$/src/main/java/ekaterina/repository" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ekaterina.pojo" />
-      <recent name="ekaterina.service" />
-      <recent name="ekaterina.repository" />
-      <recent name="ekaterina.controllers.security" />
-      <recent name="ekaterina.controllers" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ekaterina" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ekaterina.repository" />
@@ -484,6 +550,62 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SearchControllerTest">
+    <configuration name="SearchControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pool-sensor-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekaterina.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekaterina.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ekaterina.controllers.SearchControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchControllerTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pool-sensor-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekaterina.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekaterina.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ekaterina.controllers.SearchControllerTest" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchControllerTest.searchWithParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pool-sensor-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekaterina.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekaterina.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ekaterina.controllers.SearchControllerTest" />
+      <option name="METHOD_NAME" value="searchWithParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchControllerTest" />
+        <item itemvalue="JUnit.SearchControllerTest.search" />
+        <item itemvalue="JUnit.SearchControllerTest.searchWithParam" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -517,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572723290088</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added validation in jsp">
+      <created>1572783074366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572783074366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,6 +667,8 @@
     <MESSAGE value="testing" />
     <MESSAGE value="Added graphics and SensorInfo with service and repo" />
     <MESSAGE value="Added ChooseDeviceController and view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ChooseDeviceController and view" />
+    <MESSAGE value="Added validation in jsp" />
+    <MESSAGE value="Test for SearchController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test for SearchController" />
   </component>
 </project>

@@ -29,13 +29,6 @@ public class SensorRepository {
 	@Autowired
 	DeviceService deviceService;
 
-	public List<Sensor> findAll(int count) {
-		return sessionFactory.getCurrentSession()
-				.createQuery("from Sensor", Sensor.class)
-				.setMaxResults(count)
-				.list();
-	}
-
 	public Sensor findById(Long id) {
 		return sessionFactory.getCurrentSession()
 				.get(Sensor.class, id);

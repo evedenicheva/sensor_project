@@ -27,11 +27,6 @@ public class MyUserService {
 	PasswordEncoder passwordEncoder;
 
 	@Transactional
-	public List<MyUser> getFirstTen(){
-		return myUserRepository.findAll(10);
-	}
-
-	@Transactional
 	public MyUser findById(Long id){
 		return myUserRepository.findById(id);
 	}

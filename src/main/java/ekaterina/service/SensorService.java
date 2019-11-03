@@ -19,11 +19,6 @@ public class SensorService {
 	SensorRepository sensorRepository;
 
 	@Transactional
-	public List<Sensor> getFirstTen(){
-		return sensorRepository.findAll(10);
-	}
-
-	@Transactional
 	public Sensor findById(Long id){
 		return sensorRepository.findById(id);
 	}
