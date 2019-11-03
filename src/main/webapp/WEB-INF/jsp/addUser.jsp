@@ -16,25 +16,25 @@
   <div class="form-group row">
     <label for="email" class="col-sm-2 col-form-label">Email</label>
     <div class="col-sm-4">
-      <input type="email" name= "email" value="Katya@mail.ru" class="form-control" id="email">
+      <input type="email" required="" name= "email" value="Katya@mail.ru" class="form-control" id="email">
     </div>
   </div>
   <div class="form-group row">
     <label for="login" class="col-sm-2 col-form-label">Login</label>
     <div class="col-sm-4">
-      <input type="text" name= "login" value="Katya" class="form-control" id="login">
+      <input type="text" required="" name= "login" value="Katya" class="form-control" id="login">
     </div>
   </div>
   <div class="form-group row">
     <label for="pwd" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-4">
-      <input type="password" name="password" value="katya" class="form-control" id="pwd">
+      <input type="password" required="" name="password" value="katya" class="form-control" id="pwd">
     </div>
   </div>
   <div class="form-group row">
       <label for="pwd_conf" class="col-sm-2 col-form-label">Confirm password</label>
       <div class="col-sm-4">
-        <input type="password" name="password_conf" value="katya" class="form-control" id="pwd_conf">
+        <input type="password" required="" name="password_conf" value="katya" class="form-control" id="pwd_conf">
       </div>
     </div>
 

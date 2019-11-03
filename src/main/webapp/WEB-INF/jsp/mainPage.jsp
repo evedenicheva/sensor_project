@@ -23,10 +23,10 @@
 <form method="POST" action="${pageContext.request.contextPath}/mainPage/${currentDevice.id}">
   <div class="form-group row">
     <div class="col-sm-5">
-      <input type="text" name= "name" class="form-control" id="name" placeholder="Name">
+      <input type="text" name= "name" class="form-control" id="name" placeholder="Name" required="">
     </div>
     <div class="col-sm-5">
-      <input type="text" name= "value" class="form-control" id="value" placeholder="Value">
+      <input type="number" name= "value" class="form-control" id="value" placeholder="Value" required="">
     </div>
     <div class="col-sm-2">
       <button type="login" class="btn btn-dark">Add</button>
