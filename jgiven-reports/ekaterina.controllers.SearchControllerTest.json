@@ -25,15 +25,15 @@
                   "value": "web application"
                 },
                 {
-                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019",
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@534a5a98, started on Mon Nov 04 10:10:01 MSK 2019",
                   "argumentInfo": {
                     "argumentName": "wac",
-                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019"
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@534a5a98, started on Mon Nov 04 10:10:01 MSK 2019"
                   }
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 7520665
+              "durationInNanos": 7818265
             },
             {
               "name": "user enter correct search string",
@@ -57,7 +57,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 17533920
+              "durationInNanos": 22067049
             },
             {
               "name": "execute search",
@@ -71,7 +71,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 318725781
+              "durationInNanos": 347673327
             },
             {
               "name": "result size is positive",
@@ -92,17 +92,17 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 976164
+              "durationInNanos": 922263
             }
           ],
           "explicitArguments": [],
           "derivedArguments": [],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 481330758
+          "durationInNanos": 528890578
         }
       ],
-      "durationInNanos": 481330758,
+      "durationInNanos": 528890578,
       "executionStatus": "SUCCESS"
     },
     {
@@ -128,15 +128,15 @@
                   "value": "web application"
                 },
                 {
-                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019",
+                  "value": "org.springframework.web.context.support.GenericWebApplicationContext@534a5a98, started on Mon Nov 04 10:10:01 MSK 2019",
                   "argumentInfo": {
                     "argumentName": "wac",
-                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@6574a52c, started on Sun Nov 03 16:24:31 MSK 2019"
+                    "formattedValue": "org.springframework.web.context.support.GenericWebApplicationContext@534a5a98, started on Mon Nov 04 10:10:01 MSK 2019"
                   }
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 636965
+              "durationInNanos": 706777
             },
             {
               "name": "user enter empty search string",
@@ -160,7 +160,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 2431375
+              "durationInNanos": 2403321
             },
             {
               "name": "execute search",
@@ -174,7 +174,7 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 32382409
+              "durationInNanos": 40860916
             },
             {
               "name": "result size is null",
@@ -195,17 +195,17 @@
                 }
               ],
               "status": "PASSED",
-              "durationInNanos": 443613
+              "durationInNanos": 578323
             }
           ],
           "explicitArguments": [],
           "derivedArguments": [],
           "status": "SUCCESS",
           "success": true,
-          "durationInNanos": 52015006
+          "durationInNanos": 66616228
         }
       ],
-      "durationInNanos": 52015006,
+      "durationInNanos": 66616228,
       "executionStatus": "SUCCESS"
     }
   ],

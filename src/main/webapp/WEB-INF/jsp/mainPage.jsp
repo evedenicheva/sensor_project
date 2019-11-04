@@ -26,7 +26,7 @@
       <input type="text" name= "name" class="form-control" id="name" placeholder="Name" required="">
     </div>
     <div class="col-sm-5">
-      <input type="number" name= "value" class="form-control" id="value" placeholder="Value" required="">
+      <input type="number" name= "value" step="0.01" class="form-control" id="value" placeholder="Value" required="">
     </div>
     <div class="col-sm-2">
       <button type="login" class="btn btn-dark">Add</button>

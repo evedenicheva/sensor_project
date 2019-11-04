@@ -1,16 +1,20 @@
 package ekaterina.pojo;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@SequenceGenerator(name = "device_seq")
+@Data
+@NoArgsConstructor
 public class Device implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "device_seq")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
 	private String ipAddress;
@@ -24,18 +28,6 @@ public class Device implements Serializable {
 
 	@ManyToOne
 	private MyUser myUser;
-
-	public Device() {
-	}
-
-	public Device(Long id, String ipAddress, String name, String location, List<Sensor> sensors, MyUser myUser) {
-		this.id = id;
-		this.ipAddress = ipAddress;
-		this.name = name;
-		this.location = location;
-		this.sensors = sensors;
-		this.myUser = myUser;
-	}
 
 	public Long getId() {
 		return id;

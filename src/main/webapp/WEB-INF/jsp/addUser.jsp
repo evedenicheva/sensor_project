@@ -44,7 +44,7 @@
   <div class="form-group row">
     <label for="device_name" class="col-sm-2 col-form-label">Name</label>
     <div class="col-sm-4">
-      <input type="text" name= "name" value="pool_device" class="form-control" id="name">
+      <input type="text" name= "name" value="pool" class="form-control" id="name">
     </div>
   </div>
   <div class="form-group row">
